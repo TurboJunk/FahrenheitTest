@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fahrenheit.Web", "Fahrenhei
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fahrenheit.Resource", "Fahrenheit.Resource\Fahrenheit.Resource.csproj", "{A8DB5970-A1AA-4F95-B58D-5484979DAD84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fahrenheit.Tests", "Fahrenheit.Tests\Fahrenheit.Tests.csproj", "{67F1A42A-22B5-4705-AB5C-516D7530FFC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fahrenheit.Tests", "Fahrenheit.Tests\Fahrenheit.Tests.csproj", "{67F1A42A-22B5-4705-AB5C-516D7530FFC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dbbackup", "dbbackup", "{57F71DD9-7E3F-493E-B403-B7E4786302F9}"
+	ProjectSection(SolutionItems) = preProject
+		db\fahrenheit.mdf = db\fahrenheit.mdf
+		db\fahrenheit_log.ldf = db\fahrenheit_log.ldf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
